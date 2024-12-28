@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
+.font1 {
+    font-family: "Micro 5", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title{
+    text-align: center;
+    font-size: 2em;
+    margin: -20px;
+}
+
+#cam{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#video {
+    width: 70%;
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#result {
+    margin: -50px 0 50px 0;
+    font-size: 1em;
+    color: green;
+}
+
+#value{
+    text-align: center;
+    font-size: 4em;
+    margin: 20px;
+}
