@@ -19,17 +19,17 @@ Para executar este projeto, você precisará de:
 - Conexão à internet para carregar a biblioteca `jsQR` via CDN ou acesso ao arquivo local.
 
 ## Estrutura do Projeto
-QrCodeScanner/
-├── pdfs/              # Pasta contendo os arquivos PDF gerados a partir dos QR Codes
-├── qrCodes/           # Pasta contendo as imagens de QR Codes em formato PNG
-├── templates/         # Pasta contendo os arquivos HTML, CSS e JavaScript da interface
-│   ├── index.html     # Página principal do projeto
-│   ├── script.js      # Código JavaScript para leitura de QR Codes
-│   ├── style.css      # Estilos para a interface
-├── banco.db           # Banco de dados SQLite para armazenar os dados dos QR Codes
-├── imgToPdf.py        # Script para converter imagens de QR Codes em arquivos PDF
-├── qrCode.py          # Script para gerar QR Codes e armazenar no banco
-├── README.md          # Documentação do projeto
+### QrCodeScanner/  
+### ├── pdfs/              # Pasta contendo os arquivos PDF gerados a partir dos QR Codes  
+### ├── qrCodes/           # Pasta contendo as imagens de QR Codes em formato PNG  
+### ├── templates/         # Pasta contendo os arquivos HTML, CSS e JavaScript da interface  
+### │   ├── index.html     # Página principal do projeto  
+### │   ├── script.js      # Código JavaScript para leitura de QR Codes  
+### │   ├── style.css      # Estilos para a interface  
+### ├── banco.db           # Banco de dados SQLite para armazenar os dados dos QR Codes  
+### ├── imgToPdf.py        # Script para converter imagens de QR Codes em arquivos PDF  
+### ├── qrCode.py          # Script para gerar QR Codes e armazenar no banco  
+### ├── README.md          # Documentação do projeto  
 
 ## Dependências
 1. **jsQR**: Biblioteca para leitura e decodificação de QR Codes.
